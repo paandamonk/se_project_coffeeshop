@@ -175,6 +175,7 @@ body {
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
+  width: 480px;
 }
 
 .recipes__video-caption p {
