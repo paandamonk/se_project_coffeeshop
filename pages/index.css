@@ -253,7 +253,7 @@ body {
   line-height: 20px;
   background-color: #1878dc;
   color: white;
-  transition: background-color smooth;
+  transition: background-color 0.3s ease;
 }
 
 .form__button:hover {
