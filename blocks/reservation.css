@@ -21,6 +21,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 120px;
+  max-width: 385px;
+  width: 100%;
 }
 
 .reservation__fieldset {
@@ -29,6 +31,7 @@
   margin: 0;
   padding: 0;
   border: none;
+  width: 100%;
 }
 
 .reservation__label {
@@ -67,6 +70,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: none;
   background-color: #1878dc;
   color: white;
   transition: background-color 0.3s ease;

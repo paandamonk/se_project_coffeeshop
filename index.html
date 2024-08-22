@@ -75,8 +75,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </h3>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=cvxKLMvFV2sBzoRC"
@@ -86,11 +86,11 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Aeropress recipes</p>
-                <p>~5min</p>
+                <span>Aeropress recipes</span>
+                <span>~5min</span>
               </div>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=yB3u0S625_q58Ma2"
@@ -100,11 +100,11 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Frenchpress recipes</p>
-                <p>~15min</p>
+                <span>Frenchpress recipes</span>
+                <span>~15min</span>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -147,7 +147,10 @@
               />
             </fieldset>
             <button class="reservation__button">Book a table</button>
-            <label for="terms" class="reservation__label">
+            <label
+              for="terms"
+              class="reservation__label reservation__label_type_checkbox"
+            >
               <input
                 type="checkbox"
                 name="terms"
@@ -268,7 +271,7 @@
                   alt=""
                   class="footer__social-icon"
                 />
-                <a class="footer__social-link">Facebook</a>
+                <a class="footer__social-link" href="#">Facebook</a>
               </li>
               <li class="footer__list-item">
                 <img
@@ -276,7 +279,7 @@
                   alt=""
                   class="footer__social-icon"
                 />
-                <a class="footer__social-link">Instagram</a>
+                <a class="footer__social-link" href="#">Instagram</a>
               </li>
             </ul>
           </div>
